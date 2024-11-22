@@ -1,0 +1,66 @@
+.Content-Box{
+    display: flex;
+    justify-content: start;
+    padding: 15px;
+    box-shadow: 0 -12px 24px -1px #666363;
+}
+.Logo{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+}
+.Listing-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    margin-left: 40px;
+    font-size: clamp(1.25rem, 1.0417rem + 0.3333vw, 1.5625rem);    
+    font-weight: 500;
+}
+.Menu-Bar{
+    opacity: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .Content-Box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Logo{
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+    .Menu-Bar{
+        opacity: 1;
+    }
+    .Menu-Bar .Menu-List{
+        list-style: none;
+        font-size: clamp(0.9375rem, 0.7813rem + 1.25vw, 1.5625rem);        
+        font-weight: 400;
+    }
+    .Listing-list{
+        display: none;
+    }
+  }
+  @media screen and (max-width:580px) {
+    .Logo{
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    .offcanvas.offcanvas-end{
+        width: 70%;
+    }
+    .Menu-Bar .Menu-List{
+        /* font-size: 20px; */
+    }
+  }
+  @media screen and (max-width: 365px) {
+    .Content-Box{
+        width: 100%;
+    }
+  }
