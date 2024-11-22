@@ -36,6 +36,800 @@
     transform: rotate(360deg);
   }
 }
-body{
+
+
+
+
+
+
+.areaofwork{
+   align-items: center;
+   margin: 10px 30px;
 }
 
+.title{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+  color: #010101;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.heads{
+  text-align: center;
+  font-size: 21px;
+  font-weight: 500;
+  color: #8D9598;
+  opacity: 80%;
+  padding-top: 0px;
+  padding-bottom: 35px;
+  /*height: 33px;
+  text-decoration: underline #fddf48; 
+  text-underline-position: under;
+  text-underline-offset: 5px;*/
+  position: relative;
+  
+}
+.heads::after{
+  content: '';
+  position: absolute;
+  bottom: 25px;
+  left:  400px;
+  right: 400px;
+  height: 3px;
+  background-color: #FEE14D;
+}
+
+
+.main{
+  box-sizing: border-box;
+  background-color: white;
+  margin-bottom: -190px;
+
+}
+.container{
+  min-height: 100px;
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FEE14D; 
+  
+}
+.weighimage{
+  height: 450px;
+  width: 860px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  margin: 0px -12px;
+}
+.right{
+    text-align: left;
+    padding-bottom: 50px;
+    margin: 0px 50px;
+}
+.right img{
+  height: 70px;
+  width: 75px;
+}
+.right h2{
+  font-size: 30px;
+  padding-top: 20px;
+}
+.right p{
+  font-size: 20px;
+  color: #010101;
+}
+
+
+.c-container{
+  min-height: 150px;
+  width: 1250px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 35px 100px;
+  background-color: #fdfefe;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 20px;
+  color: rgb(6, 6, 6);
+  box-shadow: 0px -8px 20px -12px #747474;;
+  position: relative;
+  bottom: 70px;
+}
+
+
+ul{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+    /* gap: 5px; */
+  /* background-color: white; */
+  padding: 10px;
+  padding-left: 10px;
+  margin: 25px 80px;
+  align-items: center;
+  position: relative;
+  bottom: 170px
+
+}
+li{
+  background-color: #fdfefe;
+  text-align: center;
+  list-style: none;
+  width: 360px;
+  height: 120px;
+  /* padding: 10px 160px; */
+  font-size: 25px;
+  font-weight: 640;
+  margin: 5px 30px;
+  padding-top: 20px;
+  /*  box-shadow: 0px 10px 15px -10px #bdbcbc;
+  border-radius: 5px; */
+
+  box-shadow: 0px 3px 8px -2px #e3e2e2;
+  border-color: #e3e2e2d9;
+  border-style: solid;
+  border-width: 1px 2px 2px 2px;
+  border-radius: 5px;
+
+}
+li p{
+  line-height: 1.2;
+}
+  
+
+
+.end-container{
+  margin: 60px 140px; 
+  text-align: left;
+  padding-bottom: 20px;
+  background-color: white;
+
+}
+
+.col-8{
+  text-align: justify;
+  padding-right: 10px;
+}
+.head{
+  font-size: 30px;
+  font-weight: 650;
+}
+.headin{
+  font-size: 25px;
+  font-weight: 500;
+}
+p{
+  font-size: 19px;
+  color: #010101;
+  opacity: 60%;
+  padding-top: 15px;
+}
+
+
+.col-4{
+  box-sizing: border-box;
+  background-color: #ffffff;
+  /* box-shadow: 0px 3px 8px -2px #e3e2e2;
+  border-color: #e3e2e2d9;
+  border-style: solid;
+  border-width: 1px 2px 2px 2px;
+  border-radius: 5px;
+  text-decoration: underline #61dafb;*/
+  padding-bottom: 30px;
+  padding-top: 10px;
+   
+}
+
+.card-container{
+  min-height: 300px;
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 5px 15px;
+  box-shadow: 0px 3px 8px -2px #aeaeae;
+  border-color: #e3e2e2d9;
+  border-style: solid;
+  border-width: 2px 2px 1px 2px;
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+.card-container p{
+  font-size: 30px;
+  color: #010101;
+  opacity: 100%;
+  padding-left: 20px;
+  text-decoration: underline #fcdf02;
+  text-underline-position: under;
+  text-underline-offset: 2px;
+  
+}
+
+.subheading{
+  font-size: 20px;
+  font-weight: 500;
+  color: #070707;
+  opacity: 80%;
+  background-color: #ffffff;
+  margin-top: -7px;
+  
+
+  /* margin: 5px 20px; */
+}
+
+
+.card{
+  /* height: 50%; */
+  width: 95%;
+  display: block;
+  align-items: center;
+  object-fit:cover;
+  object-position: center;
+  
+  /* border-color: #f8c406; */
+  /* border-style: solid; */
+  /* border-width: 2px 2px 2px 2px; */
+
+}
+.card-content{
+  text-align: left;
+  color: #010101;
+  margin: 5px 22px;
+  padding-bottom: 20px;
+}
+
+.desc{
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+.bttn{
+   background-color: #ff57b9;
+   color: rgb(255, 255, 255);
+   border-radius: 5px;
+   font-size: 14px;
+   font-weight: 500;
+   cursor: pointer;
+   width: 117px;
+   height: 27px;
+   border: none;
+   margin-bottom: 18px;
+}
+.bttn:hover{
+  background-color: #ee1493;
+  color: rgb(255, 255, 255);
+  transition: 1s ease;
+}
+
+/* .btn.btn-primary{
+  background-color: #5f2ed0;
+  color: #f8c406;
+} */
+
+/* .buttonsize{
+  font: 50px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+  
+                 <Swiper
+            modules={[Navigation]}
+                   slidesPerView={1}
+                    navigation={{ clickable: true }} 
+                    onSlideChange={() => console.log('slide change')}
+                    >
+      
+                   <SwiperSlide>
+                  <div className='card-container'>
+                    <p>Area of Work</p>
+                      <div className='event'>Udaan</div>
+                   <div className='card'>
+                   <img src={image_4} alt=''/>
+                   </div>
+                      <div className='card-content'>
+                        <div className='parap'>Educate a Girl, Empower a Nation</div>
+                        <button className="bttn">Read More</button>
+                       </div>
+                       </div>
+                       </SwiperSlide>
+
+                       <SwiperSlide>
+                       <div className='card-container'>
+                       <p>Area of Work</p>
+                      <div className='event'>Shiksha Na Ruke</div>
+                   <div className='card'>
+                   <img src={image_3} alt=''/>
+                   </div>
+
+                      <div className='card-content'>
+                        <div className='parap'>A Girl with a Book is a Vaccine Against Poverty</div>
+                        <button className="bttn">Read More</button>
+                       </div>
+                       </div>
+                       </SwiperSlide>
+
+                       <SwiperSlide>
+                       <div className='card-container'>
+                       <p>Area of Work</p>
+                      <div className='event'>Tayyari Kal Ki </div>
+                   <div className='card'>
+                   <img src={image_5} alt=''/>
+                   </div>
+
+                      <div className='card-content'>
+                        <div className='parap'>Enabling Livelihoods for Girls through Skill Training </div>
+                        <button className="bttn">Read More</button>
+                       </div>
+                       </div>
+                       </SwiperSlide>
+                  
+                       
+                  </Swiper>
+
+
+
+
+
+.swiper-container {
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  box-sizing: border-box;
+}
+
+.pagination{
+  position: absolute;
+  bottom: 2px;
+  text-align: center;
+  z-index: 9;
+}
+.swiper-pagination-bullet {
+  height: 6px;
+  width: 6px;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #0071ba;
+}
+.swiper-button-next, .swiper-button-prev{
+  height: 40px;
+  width: 40px;
+  top: 29px;
+  background-color: white;
+  background-size: 14px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: 0.6s all;
+  cursor: pointer;
+}
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+.swiper-button-prev {
+  left: initial;
+  right: 60px;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%230071ba'%2F%3E%3C%2Fsvg%3E");
+}
+.swiper-button-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%230071ba'%2F%3E%3C%2Fsvg%3E")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="container-text-center">
+  <div class="row">
+    <div class="col">
+      Visitors
+    </div>
+    <div class="col">
+      Donors
+    </div>
+    <div class="col">
+      Volunters
+    </div>
+  </div>
+</div>
+
+
+
+
+
+.container-text-center{
+  margin: 25px 60px;
+  margin: 0;
+  padding: 0;
+  bottom: 100px;
+}
+
+
+
+
+
+
+ul {
+  min-height: 100px;
+  width: 365px;
+  display: inline;
+  list-style: none;
+  justify-content: space-between ;
+  align-items: center;
+ margin : 15px 40px;
+  
+  background-color: rgb(252, 250, 250);
+  box-shadow:  0px 10px 13px -10px #8a8a8a;
+  
+  position: relative;
+   bottom: 150px 
+}
+
+li{
+   display: inline-block; 
+  list-style: none;
+  
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+.col{
+  min-height: 100px;
+  width: 20px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between ;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fddf48;
+  margin-left: 90px;
+  margin-right: 90px;
+  
+}
+.row{
+  display: inline-block; 
+  list-style: none;
+  gap: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #010101;
+}
+
+
+
+
+
+
+h4{
+  font-size: 50px;
+  color: #010101;
+
+  
+}
+h5{
+   font-size: 24px;
+  color: #911616;
+
+}
+
+
+
+  
+                   <div className='event'>Shiksha Na Ruke</div>
+                   <div className='card'>
+                   <img src={image_3} alt=''/>
+                   </div>
+
+                      <div className='card-content'>
+                        <div className='parap'>A Girl with a Book is a Vaccine Against Poverty</div>
+                        <button className="bttn">Read More</button>
+                        
+                      </div>
+
+
+*/
